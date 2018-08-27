@@ -20,7 +20,7 @@ module.exports = function(server) {
         res.redirect('/explorer/');
     });
     router.get("/success",function(req,res){
-        console.log("success");
+        console.log(req);
         res.send("success")
     })
     router.get('/status', server.loopback.status());
