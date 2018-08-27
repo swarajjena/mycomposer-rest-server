@@ -2,7 +2,7 @@
   "composer": {
     "name": "composer",
     "connector": "loopback-connector-composer",
-    "card": "admin@movehacka",
+    "card": "admin@movehackb",
     "namespaces": false
   },
   "db": {
