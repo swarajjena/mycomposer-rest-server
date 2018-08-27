@@ -5,7 +5,10 @@
         "usernameField": "username",
         "passwordField": "password",
         "authPath": "/auth/local",
+        "callbackURL":"/auth/local/callback",
         "successRedirect": "/success",
-        "failureRedirect": "/error"
+        "failureRedirect": "/error",
+        "setAccessToken": true, 
+        "callbackHTTPMethod": "post"         
     }
 }
