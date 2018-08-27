@@ -19,10 +19,6 @@ module.exports = function(server) {
     router.get('/', (req, res, next) => {
         res.redirect('/explorer/');
     });
-    router.get("/success",function(req,res){
-        console.log(req);
-        res.send("success")
-    })
     router.get('/status', server.loopback.status());
     server.use(router);
 };
