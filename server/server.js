@@ -228,11 +228,11 @@ if (require.main === module) {
                     console.log('Browse your REST API at %s%s', baseUrl, explorerPath);
                 }
 
-                app.get("/success",function(req,res){
-                    console.log("success");
-                    res.send("success")
-                })
             });
+            app.get("/success",function(req,res){
+                console.log("success");
+                res.send("success")
+            })
 
         })
         .catch((error) => {
