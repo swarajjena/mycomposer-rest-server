@@ -1,0 +1,41 @@
+{
+  "name": "current_train_status",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "line_no": {
+      "type": "number"
+    },
+    "train_no": {
+      "type": "string"
+    },
+    "train_arrival_time": {
+      "type": "string"
+    },
+    "loading_start_time": {
+      "type": "string"
+    },
+    "etd": {
+      "type": "string"
+    },
+    "no_of_rake": {
+      "type": "number"
+    },
+    "no_of_containers": {
+      "type": "number"
+    },
+    "destination": {
+      "type": "string"
+    },
+    "distance_to_be_travelled": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

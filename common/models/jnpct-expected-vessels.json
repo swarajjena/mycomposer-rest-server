@@ -1,0 +1,44 @@
+{
+  "name": "jnpct_expected_vessels",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "sr_no": {
+      "type": "number",
+      "required": true
+    },
+    "vessel_no": {
+      "type": "string",
+      "required": true
+    },
+    "loa": {
+      "type": "number",
+      "required": true
+    },
+    "gate": {
+      "type": "string"
+    },
+    "eta": {
+      "type": "date"
+    },
+    "est_berth": {
+      "type": "string"
+    },
+    "est_sailing_time": {
+      "type": "date"
+    },
+    "imp": {
+      "type": "string"
+    },
+    "exp": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

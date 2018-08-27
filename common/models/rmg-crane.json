@@ -1,0 +1,35 @@
+{
+  "name": "rmg_crane",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "sr_no": {
+      "type": "number"
+    },
+    "crane": {
+      "type": "string"
+    },
+    "current_position": {
+      "type": "string"
+    },
+    "scheduled_maintainence": {
+      "type": "date"
+    },
+    "current_status": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

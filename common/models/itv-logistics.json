@@ -1,0 +1,41 @@
+{
+  "name": "itv_logistics",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "sr_no": {
+      "type": "string"
+    },
+    "truck_id": {
+      "type": "number"
+    },
+    "truck_no": {
+      "type": "string"
+    },
+    "port_of_operation": {
+      "type": "string"
+    },
+    "working_position": {
+      "type": "string"
+    },
+    "current_operation": {
+      "type": "string"
+    },
+    "current_status": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

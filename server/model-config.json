@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models",
+      "../node_modules/loopback-component-passport/lib/models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "user": {
+    "dataSource": "db",
+    "public":true
+  },
+  "Card": {
+    "dataSource": "db",
+    "public": false
+  },
+  "accessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "userCredential": {
+    "dataSource": "db",
+    "public": false
+  },
+  "userIdentity": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "movehackz": {
+    "dataSource": "db",
+    "public": true
+  },
+  "jnpct_berth_operations": {
+    "dataSource": "db",
+    "public": true
+  },
+  "jnpct_expected_vessels": {
+    "dataSource": "db",
+    "public": true
+  },
+  "crane_mainatainance": {
+    "dataSource": "db",
+    "public": true
+  },
+  "current_train_status": {
+    "dataSource": "db",
+    "public": true
+  },
+  "rake_allocation": {
+    "dataSource": "db",
+    "public": true
+  },
+  "upcoming_trains": {
+    "dataSource": "db",
+    "public": true
+  },
+  "sts_crane": {
+    "dataSource": "db",
+    "public": true
+  },
+  "rtg_crane": {
+    "dataSource": "db",
+    "public": true
+  },
+  "rmg_crane": {
+    "dataSource": "db",
+    "public": true
+  },
+  "itv_logistics": {
+    "dataSource": "db",
+    "public": true
+  }
+}

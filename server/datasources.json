@@ -1,0 +1,15 @@
+{
+  "composer": {
+    "name": "composer",
+    "connector": "loopback-connector-composer",
+    "card": "admin@movehackz",
+    "namespaces": false
+  },
+  "db": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "movehackz",
+    "name": "db",
+    "connector": "mongodb"
+  }
+}

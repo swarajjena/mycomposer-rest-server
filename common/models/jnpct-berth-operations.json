@@ -1,0 +1,41 @@
+{
+  "name": "jnpct_berth_operations",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "sr_no": {
+      "type": "number",
+      "required": true
+    },
+    "vessel_no": {
+      "type": "string",
+      "required": true
+    },
+    "loa": {
+      "type": "number",
+      "required": true
+    },
+    "berth_allocated": {
+      "type": "string"
+    },
+    "berthing_time": {
+      "type": "date"
+    },
+    "est_sailing_time": {
+      "type": "date"
+    },
+    "imp": {
+      "type": "string"
+    },
+    "exp": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

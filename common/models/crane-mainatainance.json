@@ -1,0 +1,36 @@
+{
+  "name": "crane_mainatainance",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "crane_id": {
+      "type": "string"
+    },
+    "crane_no": {
+      "type": "string",
+      "required": true
+    },
+    "crane_type": {
+      "type": "string"
+    },
+    "est_maintainence_time": {
+      "type": "number"
+    },
+    "est_up_time": {
+      "type": "date"
+    },
+    "action_required": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

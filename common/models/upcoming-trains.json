@@ -1,0 +1,35 @@
+{
+  "name": "upcoming_trains",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "line_no": {
+      "type": "number"
+    },
+    "train_no": {
+      "type": "string"
+    },
+    "eta": {
+      "type": "date"
+    },
+    "etd": {
+      "type": "date"
+    },
+    "no_of_rake": {
+      "type": "number"
+    },
+    "departing_station": {
+      "type": "string"
+    },
+    "container_weight": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
