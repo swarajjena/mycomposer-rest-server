@@ -227,12 +227,8 @@ if (require.main === module) {
                     let explorerPath = app.get('loopback-component-explorer').mountPath;
                     console.log('Browse your REST API at %s%s', baseUrl, explorerPath);
                 }
-
+    
             });
-            app.get("/success",function(req,res){
-                console.log("success");
-                res.send("success")
-            })
 
         })
         .catch((error) => {

@@ -66,10 +66,6 @@
     "dataSource": "db",
     "public": true
   },
-  "rake_allocation": {
-    "dataSource": "db",
-    "public": true
-  },
   "upcoming_trains": {
     "dataSource": "db",
     "public": true
