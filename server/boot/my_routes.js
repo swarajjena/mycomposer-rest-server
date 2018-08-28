@@ -3,7 +3,7 @@
 module.exports = function(app) {
   // Install a "/ping" route that returns "pong"
   app.get("/success",function(req,res){
-    res.send("success");
+    res.send(req["user"]);
   });
   // Install a "/ping" route that returns "pong"
   app.get("/error",function(req,res){
